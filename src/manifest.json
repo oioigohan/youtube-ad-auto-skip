@@ -1,10 +1,10 @@
 {
-    "name": "YouTube AD Auto Skip",
+    "name": "YouTube Ads Auto Skipper",
     "version": "1.0.0",
     "manifest_version": 2,
-    "description": "This is a Chrome extension skipping AD on YouTube automatically.",
+    "description": "This Chrome extension can skip Ads on YouTube automatically.",
     "content_scripts": [{
-      "matches": ["https://www.youtube.com/*"],
+      "matches": ["https://www.youtube.com/watch?v=*"],
       "js": [
         "content.js"
       ]
