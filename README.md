@@ -5,7 +5,7 @@ This Chrome extension can skip Ads on YouTube automatically.
 
 YouTubeで動画を再生した際に表示される広告を自動で閉じてくれるChrome拡張機能です。
 
-インストール手順は次です。
+## インストール手順
 
 1. このリポジトリをクローンあるいは[`src`](https://github.com/oioigohan/youtube-ads-auto-skipper/tree/main/src)フォルダをダウンロード
 2. [拡張機能を管理](chrome://extensions/)へ移動
@@ -23,7 +23,13 @@ YouTubeで動画を再生した際に表示される広告を自動で閉じて�
 - 回答せずにスキップできるアンケート
 - アプリのインストール用サイトなどにリンクされたボタンが一定時間表示される広告
 
-広告のスキップに成功した場合はデベロッパーツールの`Console`にメッセージが出力されます。
+その他特徴
+
+- 動画の開始時、中盤、終了時のどのタイミングの広告でもスキップできます
+- ミニプレイヤーや全画面表示になっていてもスキップできます
+- 広告のスキップに成功した場合はデベロッパーツールの`Console`にメッセージが出力されます
+  - メインの広告をスキップした場合: `[YouTube Ads Auto Skipper] Skipped a main Ad.`
+  - プレイヤー下部の小さい広告を閉じた場合: `[YouTube Ads Auto Skipper] Closed a sub Ad.`
 
 ## スキップできない広告
 
