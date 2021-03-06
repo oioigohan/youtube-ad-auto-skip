@@ -8,8 +8,8 @@ YouTubeで動画を再生した際に表示される広告を自動で閉じて�
 ## インストール手順
 
 1. このリポジトリをクローンあるいは[`src`](https://github.com/oioigohan/youtube-ads-auto-skipper/tree/main/src)フォルダをダウンロード
-2. [拡張機能を管理](chrome://extensions/)へ移動
-3. ツールバー右の「デベロッパーモード」を有効にする
+2. Chromeを起動し右上のメニューから「設定」、「[拡張機能](chrome://extensions/)」の順で移動
+3. ツールバー右の「デベロッパーモード」のトグルを有効にする
 4. 「パッケージ化されていない拡張機能を読み込む」をクリック
 5. ポップアップしたエクスプローラーにて[`src`](https://github.com/oioigohan/youtube-ads-auto-skipper/tree/main/src)フォルダを選択
 
