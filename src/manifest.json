@@ -1,0 +1,12 @@
+{
+    "name": "YouTube AD Auto Skip",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "This is a Chrome extension skipping AD on YouTube automatically.",
+    "content_scripts": [{
+      "matches": ["https://www.youtube.com/*"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
