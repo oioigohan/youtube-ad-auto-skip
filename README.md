@@ -3,8 +3,8 @@ This Chrome extension can skip Ads on YouTube automatically.
 
 ## 説明
 
-YouTubeで動画を再生した際に表示される広告を自動で閉じてくれるChrome用拡張機能です。
-PCにてChromeにインストールすると利用できます。
+YouTubeで動画を再生した際に表示される広告を自動で閉じてくれるChrome拡張機能です。
+
 インストール手順は次です。
 
 1. このリポジトリをクローンあるいは[`src`](https://github.com/oioigohan/youtube-ads-auto-skipper/tree/main/src)フォルダをダウンロード
