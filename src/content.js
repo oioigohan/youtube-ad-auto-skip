@@ -1,6 +1,6 @@
 elem = (className) => document.getElementsByClassName(className)[0];
 
-player = () => elem("video-stream");
+player = () => elem("html5-video-player");
 btnSkip = () => elem("ytp-ad-skip-button");
 btnClose = () => elem("ytp-ad-overlay-close-button");
 
